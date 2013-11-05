@@ -115,3 +115,12 @@ body #contenido .item .titulo_item a {
 }
 
 
+
+
+body #contenido .item {
+	padding-bottom: 10em;
+	padding-left: 0.5em;
+	
+}
+
+
