@@ -45,12 +45,12 @@ header #logosbanner img{
 
 header h1
 {
-	font-size: 28px;
-	font-weight: normal;
+	font-size: 2.5em;
+	font-weight: 200;
 	color: white;
 	text-shadow: 5px 5px 5px #4C4C4C;
 	text-decoration: none;
-	margin: 1em 0 0 0.5em;
+	margin: 1em 0 0.5em 0.5em;
 	width: 40%;
 }
 
