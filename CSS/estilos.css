@@ -7,6 +7,7 @@ body
 {
 	background-image:url(../images/graphy.png);
 	background-repeat: repeat;
+
 	color: #4C4C4C;
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
@@ -16,15 +17,14 @@ body
 
 header
 {
-	background-image:url(back.png);
-	background-repeat: no-repeat;
+	background-color: rgba(2,3,3,0.2);
 	color: #F7F7F7;
 	padding: 1em;
 	text-align: left;
 	max-width: 100%;
 }
 
-header #logo, header h1,header #logosbanner, header #googlelogo
+header #logo, header h1, header #googlelogo
 {
 	display: inline-block;
 	vertical-align: top;
@@ -44,24 +44,69 @@ header #logo img{
 	margin: 0;
 
 }
-header #logosbanner img{
-	width: 350px;
+
+#contenido .item #gdglogo img{
+	width: 100px;
 	margin: 0;
-	padding-right: 5px;
-	padding-left: 15px;
-	margin-top: 15px;
+	margin-top: 10px;
+	margin-right: 5em;
+	background-color:  rgba(248,248,255,0.7);
+	border-radius: 100px;
+	padding: 10px;
+
+	
 }
+
+#contenido .item #gsalogo img{
+	width: 70px;
+	margin: 0;
+	margin-top: 1opx;
+	padding: 10px;
+	margin-right: 5em;
+	background-color: rgba(248,248,255,0.7);
+	border-radius: 20px;
+
+	
+}
+
+
+#contenido .item #gbglogo img{
+	width: 100px;
+	margin: 0;
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 4em;
+	background-color: rgba(248,248,255,0.7);
+	border-radius: 15px;
+
+
+}
+
+
+#contenido .item .logos {
+background: white;
+}
+
+
+#contenido .item #gsalogo, #contenido .item #gdglogo, #contenido .item #gbglogo , .boton {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
 
 
 header h1
 {
 	font-size: 3em;
-	font-weight: 200;
+	
 	color: white;
 	text-shadow: 5px 5px 5px #4C4C4C;
 	text-decoration: none;
 	margin: 0.5em 0 0.5em 0.5em;
-	width: 30%;
+	width: 60%;
+
 
 }
 
@@ -141,6 +186,7 @@ body #contenido {
    width: 100%;
    height: 100%;
    padding-bottom: 0;
+   margin-top: 5em;
    margin-bottom: 9em;
 }
 
@@ -152,7 +198,7 @@ body .contenido2 {
    width: 100%;
    height: 100%;
    margin-bottom: 2em;
-   margin-top: 10em; 
+   margin-top: 12em; 
 }
 
 
@@ -171,14 +217,47 @@ body .contenido2 .item .titulo_item a {
 	
 }
 
-body #contenido2 .item {
+body .contenido2 .item {
 	padding-bottom: 0em;
 	padding-left: 0.5em;
 	
 }
 
+.contenido2 .item #expositor1 img{
+	width: 120px;
+	margin: 0;
+	margin-top: 10px;
+	padding: 10px;
+	margin-right: 5em;
+	border-radius: 120px;
+}
+
+.contenido2 .item #expositor2 img{
+	width: 120px;
+	height: 120px;
+	margin: 0;
+	margin-top: 2px;
+	padding: 15px;
+	margin-right: 5em;
+	border-radius: 120px;
+}
+
+.contenido2 .item #expositor1 figcaption,.contenido2 .item #expositor2 figcaption{
+	color: white;
+	font-size: 1em;
+	padding-left: 1.5em;
+	
+}
+
+	
 
 
+
+.contenido2 .item #expositor1,.contenido2 .item #expositor2 {
+	display: inline-block;
+	vertical-align: top;
+
+}
 
 
 body #contenido .item {
@@ -210,10 +289,58 @@ body #contenido .item {
     .slider_container .slideContainer .slide {
       display: inline-block;
       background-image: url(../images/GoogleIO2013.jpg);
-      -webkit-filter:  blur(2px);
       margin-right: -4px;
       vertical-align: top;
       background-size: 100%;
       background-position: bottom; }
+
+.boton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+	background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+	background-color:#77d42a;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #268a16;
+	display:inline-block;
+	color:#306108;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:86px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #b1c99a;
+	padding:10px;
+	margin-top: 5px;	
+	float: right;
+	margin-right: 15px;
+}
+.boton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+	background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+	background-color:#5cb811;
+}.boton:active {
+	position:relative;
+	top:1px;
+}
 
 
