@@ -5,7 +5,8 @@
 
 body
 {
-	background: #EFEFEC;
+	background-image:url(../images/graphy.png);
+	background-repeat: repeat;
 	color: #4C4C4C;
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
@@ -23,35 +24,45 @@ header
 	max-width: 100%;
 }
 
-header #logo, header h1,header #logosbanner
+header #logo, header h1,header #logosbanner, header #googlelogo
 {
 	display: inline-block;
 	vertical-align: top;
 
 }
 
+header #googlelogo img{
+	width: 100px;
+	margin-top: 55px;
+	margin-left: -5px;
+	border-radius: 2px;
+}
+
+
 header #logo img{
 	width: 120px;
 	margin: 0;
+
 }
 header #logosbanner img{
 	width: 350px;
 	margin: 0;
 	padding-right: 5px;
 	padding-left: 15px;
-	padding-bottom: 10px;
+	margin-top: 15px;
 }
 
 
 header h1
 {
-	font-size: 2.5em;
+	font-size: 3em;
 	font-weight: 200;
 	color: white;
 	text-shadow: 5px 5px 5px #4C4C4C;
 	text-decoration: none;
-	margin: 1em 0 0.5em 0.5em;
-	width: 40%;
+	margin: 0.5em 0 0.5em 0.5em;
+	width: 30%;
+
 }
 
 footer
@@ -81,7 +92,7 @@ nav
 	color: white;
 	font-size: 0.9em;
 	opacity: 0.9;
-	border-bottom: 4px #22BCE0 solid;
+	border-bottom: 4px #4C4C4C  solid;
 }
 
 nav ul
@@ -115,12 +126,94 @@ body #contenido .item .titulo_item a {
 }
 
 
+body #contenido .item .parrafo {
+	
+	color: white;
+	width: 100%;
+	
+}
 
 
-body #contenido .item {
-	padding-bottom: 10em;
+body #contenido {
+	
+   border-radius: 10px;
+   background-color: rgba(0,0,0,0.6);
+   width: 100%;
+   height: 100%;
+   padding-bottom: 0;
+   margin-bottom: 9em;
+}
+
+
+body .contenido2 {
+	
+   border-radius: 10px;
+   background-color: rgba(0,0,0,0.6);
+   width: 100%;
+   height: 100%;
+   margin-bottom: 2em;
+   margin-top: 10em; 
+}
+
+
+body .contenido2 .item .parrafo {
+	
+	color: white;
+	width: 100%;
+	
+}
+
+body .contenido2 .item .titulo_item a {
+	text-decoration: none;
+	font-size: 3.5em;
+	font-weight: 100;
+	color: #22BCE0;
+	
+}
+
+body #contenido2 .item {
+	padding-bottom: 0em;
 	padding-left: 0.5em;
 	
 }
+
+
+
+
+
+body #contenido .item {
+	padding-bottom: 0em;
+	padding-left: 0.5em;
+	
+}
+
+
+.fullScreen {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed; 
+}
+
+
+.slider_container {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-color: #000; }
+  .slider_container .slideContainer {
+    white-space: nowrap;
+    height: 100%; }
+    .slider_container .slideContainer .slide {
+      display: inline-block;
+      background-image: url(../images/GoogleIO2013.jpg);
+      -webkit-filter:  blur(2px);
+      margin-right: -4px;
+      vertical-align: top;
+      background-size: 100%;
+      background-position: bottom; }
 
 
