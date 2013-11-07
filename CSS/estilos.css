@@ -1,3 +1,9 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%; }
+
+
  a
 {
 	color: #DD4F24;
@@ -7,6 +13,7 @@ body
 {
 	background-image:url(../images/graphy.png);
 	background-repeat: repeat;
+	background-color: red;
 
 	color: #4C4C4C;
 	font-family: 'Roboto', sans-serif;
@@ -45,6 +52,7 @@ header #logo img{
 
 }
 
+
 #contenido .item #gdglogo img{
 	width: 100px;
 	margin: 0;
@@ -60,14 +68,14 @@ header #logo img{
 #contenido .item #gsalogo img{
 	width: 70px;
 	margin: 0;
-	margin-top: 1opx;
+	margin-top: 1px;
 	padding: 10px;
 	margin-right: 5em;
 	background-color: rgba(248,248,255,0.7);
-	border-radius: 20px;
-
-	
+	border-radius: 20px;	
+	margin-right: 0;
 }
+
 
 
 #contenido .item #gbglogo img{
@@ -88,7 +96,7 @@ background: white;
 }
 
 
-#contenido .item #gsalogo, #contenido .item #gdglogo, #contenido .item #gbglogo , .boton {
+#contenido .item #gsalogo, #contenido .item #gdglogo, #contenido .item #gbglogo{
 	display: inline-block;
 	vertical-align: top;
 }
@@ -151,7 +159,7 @@ nav ul li
 {
 	display: inline-block;
 	vertical-align: top;
-	margin: 0 5em 0 0;
+	margin: 0 2em 0 0;
 }
 
 nav ul li a
@@ -167,9 +175,17 @@ body #contenido .item .titulo_item a {
 	font-size: 3.5em;
 	font-weight: 100;
 	color: #22BCE0;
-	
+	padding: 0;
+	margin: 0;
 }
 
+
+body #contenido .item .titulo_item  {
+	width: auto;%;
+	padding: 0;
+	margin: 0;
+	
+}
 
 body #contenido .item .parrafo {
 	
@@ -178,15 +194,19 @@ body #contenido .item .parrafo {
 	
 }
 
+body #contenido .item {
+	margin-right: 1em;
+	margin-left: 1em;
+}
 
 body #contenido {
 	
    border-radius: 10px;
-   background-color: rgba(0,0,0,0.6);
+   background-color: rgba(0,0,0,0.8);
    width: 100%;
    height: 100%;
    padding-bottom: 0;
-   margin-top: 5em;
+   margin-top: 2em;
    margin-bottom: 9em;
 }
 
@@ -198,7 +218,7 @@ body .contenido2 {
    width: 100%;
    height: 100%;
    margin-bottom: 2em;
-   margin-top: 12em; 
+   margin-top: 2em; 
 }
 
 
@@ -315,7 +335,7 @@ body #contenido .item {
 	-moz-border-radius-bottomleft:20px;
 	border-bottom-left-radius:20px;
 	text-indent:0;
-	border:1px solid #268a16;
+	border: 1px solid #268a16;
 	display:inline-block;
 	color:#306108;
 	font-family:Verdana;
@@ -331,7 +351,8 @@ body #contenido .item {
 	padding:10px;
 	margin-top: 5px;	
 	float: right;
-	margin-right: 15px;
+	margin-right: 10px;
+
 }
 .boton:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
