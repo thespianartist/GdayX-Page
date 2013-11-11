@@ -9,6 +9,7 @@ html, body {
 	color: #DD4F24;
 }
 
+
 body
 {
 	background-image:url(../images/graphy.png);
@@ -17,7 +18,7 @@ body
 
 	color: #4C4C4C;
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	text-align: justify;
 	margin 0;
 }
@@ -53,6 +54,21 @@ header #logo img{
 }
 
 
+h3{
+
+color: white;
+
+}
+
+#contenido .item #gdglogo figcaption, #contenido .item #gsalogo figcaption,#contenido .item #gbglogo figcaption{
+
+ 	color: white;
+ 	font-size: 0.8em;
+ 	margin-top: 0.9em;
+ 	font-style: oblique;
+
+} 
+
 #contenido .item #gdglogo img{
 	width: 100px;
 	margin: 0;
@@ -66,10 +82,10 @@ header #logo img{
 }
 
 #contenido .item #gsalogo img{
-	width: 70px;
+	width: 65px;
 	margin: 0;
 	margin-top: 1px;
-	padding: 10px;
+	padding: 8px;
 	margin-right: 5em;
 	background-color: rgba(248,248,255,0.7);
 	border-radius: 20px;	
@@ -99,6 +115,40 @@ background: white;
 #contenido .item #gsalogo, #contenido .item #gdglogo, #contenido .item #gbglogo{
 	display: inline-block;
 	vertical-align: top;
+}
+
+#contenido .item .registrate {
+font-size: 1.3em;
+color: #FF0040;
+}
+
+#contenido .item #registrate2 {
+font-size: 1.3em;
+color: #FF0040;
+float: right;
+}
+
+
+
+#contenido3 .item .hora {
+font-size: 1em;
+color: #FF0040;
+}
+
+#contenido3 .item .conferencia {
+font-size: 1em;
+color: white;
+}
+
+#lugarfecha .item figure img {
+width: 120px;
+float: right;
+}
+
+
+#lugarfecha .item figure{
+margin-right: 0.5em;
+margin-left: 0.5em;
 }
 
 
@@ -181,7 +231,7 @@ body #contenido .item .titulo_item a {
 
 
 body #contenido .item .titulo_item  {
-	width: auto;%;
+	width: auto;
 	padding: 0;
 	margin: 0;
 	
@@ -207,7 +257,7 @@ body #contenido {
    height: 100%;
    padding-bottom: 0;
    margin-top: 2em;
-   margin-bottom: 9em;
+   margin-bottom: 2em;
 }
 
 
@@ -262,6 +312,36 @@ body .contenido2 .item {
 	border-radius: 120px;
 }
 
+.contenido2 .item #expositor3 img{
+	width: 120px;
+	height: 120px;
+	margin: 0;
+	margin-top: 2px;
+	padding: 15px;
+	margin-right: 5em;
+	border-radius: 120px;
+}
+
+.contenido2 .item #expositor4 img{
+	width: 120px;
+	height: 120px;
+	margin: 0;
+	margin-top: 2px;
+	padding: 15px;
+	margin-right: 5em;
+	border-radius: 120px;
+}
+
+.contenido2 .item #expositor5 img{
+	width: 120px;
+	height: 120px;
+	margin: 0;
+	margin-top: 2px;
+	padding: 15px;
+	margin-right: 5em;
+	border-radius: 120px;
+}
+
 .contenido2 .item #expositor1 figcaption,.contenido2 .item #expositor2 figcaption{
 	color: white;
 	font-size: 1em;
@@ -269,11 +349,8 @@ body .contenido2 .item {
 	
 }
 
-	
 
-
-
-.contenido2 .item #expositor1,.contenido2 .item #expositor2 {
+.contenido2 .item #expositor1,.contenido2 .item #expositor2,.contenido2 .item #expositor3,.contenido2 .item #expositor4,.contenido2 .item #expositor5 {
 	display: inline-block;
 	vertical-align: top;
 
@@ -292,7 +369,8 @@ body #contenido .item {
   height: 100%;
   padding: 0;
   margin: 0;
-  background-attachment: fixed; 
+  background-attachment: inherit;
+  background-repeat: repeat-y; 
 }
 
 
