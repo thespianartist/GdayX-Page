@@ -2,13 +2,10 @@ html, body {
   margin: 0;
   padding: 0;
   max-width: 100%; }
-
-
- a
+a
 {
 	color: #DD4F24;
 }
-
 
 body
 {
@@ -24,6 +21,7 @@ body
 }
 
 header
+
 {
 	background-color: rgba(2,3,3,0.2);
 	color: #F7F7F7;
@@ -54,7 +52,7 @@ header #logo img{
 }
 
 
-h3
+h3 {
 
 color:  #80FF00;
 font-size: 1.5em;
@@ -148,7 +146,7 @@ float: right;
 
 
 #lugarfecha .item figure{
-margin-right: 1.5em;
+margin-right: 2.5em;
 margin-left: 0.5em;
 }
 
@@ -299,8 +297,8 @@ body .contenido2 .item {
 	margin: 0;
 	margin-top: 10px;
 	padding: 10px;
-	margin-right: 5em;
 	border-radius: 120px;
+	margin-right: 1em;
 }
 
 .contenido2 .item #expositor2 img{
@@ -309,8 +307,8 @@ body .contenido2 .item {
 	margin: 0;
 	margin-top: 2px;
 	padding: 15px;
-	margin-right: 5em;
 	border-radius: 120px;
+	margin-right: 1em;
 }
 
 .contenido2 .item #expositor3 img{
@@ -319,8 +317,8 @@ body .contenido2 .item {
 	margin: 0;
 	margin-top: 2px;
 	padding: 15px;
-	margin-right: 5em;
 	border-radius: 120px;
+	margin-right: 1em;
 }
 
 .contenido2 .item #expositor4 img{
@@ -329,8 +327,8 @@ body .contenido2 .item {
 	margin: 0;
 	margin-top: 2px;
 	padding: 15px;
-	margin-right: 5em;
 	border-radius: 120px;
+	margin-right: 1em;
 }
 
 .contenido2 .item #expositor5 img{
@@ -339,8 +337,8 @@ body .contenido2 .item {
 	margin: 0;
 	margin-top: 2px;
 	padding: 15px;
-	margin-right: 5em;
 	border-radius: 120px;
+	margin-right: 1em;
 }
 
 .contenido2 .item #expositor6 img{
@@ -349,19 +347,39 @@ body .contenido2 .item {
 	margin: 0;
 	margin-top: 2px;
 	padding: 15px;
-	margin-right: 5em;
 	border-radius: 120px;
+	margin-right: 1em;
 }
 
-.contenido2 .item #expositor1 figcaption,.contenido2 .item #expositor2 figcaption,.contenido2 .item #expositor3 figcaption,.contenido2 .item #expositor4 figcaption,.contenido2 .item #expositor5 figcaption,.contenido2 .item #expositor6 figcaption{
+.contenido2 .item #expositor7 img{
+	width: 120px;
+	height: 120px;
+	margin: 0;
+	margin-top: 2px;
+	padding: 15px;
+	border-radius: 120px;
+	margin-right: 1em;
+}
+
+.contenido2 .item #expositor8 img{
+	width: 120px;
+	height: 120px;
+	margin: 0;
+	margin-top: 2px;
+	padding: 15px;
+	margin-right: 1em;
+	border-radius: 120px;
+}
+.contenido2 .item #expositor1 figcaption,.contenido2 .item #expositor2 figcaption,.contenido2 .item #expositor3 figcaption,.contenido2 .item #expositor4 figcaption,.contenido2 .item #expositor5 figcaption,.contenido2 .item #expositor6 figcaption, .contenido2 .item #expositor7 figcaption,.contenido2 .item #expositor8 figcaption{
 	color: white;
-	font-size: 1em;
-	padding-left: 1.5em;
+	font-size: 0.9em;
+	padding-left: 1em;
+	margin-right: 0.6em;
 	
 }
 
 
-.contenido2 .item #expositor1,.contenido2 .item #expositor2,.contenido2 .item #expositor3,.contenido2 .item #expositor4,.contenido2 .item #expositor5 ,.contenido2 .item #expositor6{
+.contenido2 .item #expositor1,.contenido2 .item #expositor2,.contenido2 .item #expositor3,.contenido2 .item #expositor4,.contenido2 .item #expositor5 ,.contenido2 .item #expositor6,.contenido2 .item #expositor7,.contenido2 .item #expositor8{
 	display: inline-block;
 	vertical-align: top;
 
@@ -387,7 +405,7 @@ body #contenido .item {
 	margin: 0;
 	margin-top: 2px;
 	padding: 15px;
-	margin-right: 2em;
+	margin-right: 1em;
 	background-color:  rgba(248,248,255,0.7);
 	
 }
@@ -400,7 +418,7 @@ body #contenido .item {
 	margin: 0;
 	margin-top: 2px;
 	padding: 15px;
-	margin-right: 2em;
+	margin-right: 1em;
 	background-color:  rgba(248,248,255,0.7);
 	
 }
@@ -412,7 +430,7 @@ body #contenido .item {
 	margin: 0;
 	margin-top: 2px;
 	padding: 15px;
-	margin-right: 2em;
+	margin-right: 1em;
 	background-color:  rgba(248,248,255,0.7);
 	
 
