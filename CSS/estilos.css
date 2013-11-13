@@ -143,6 +143,7 @@ float: right;
 #contenido3 .item .hora {
 font-size: 1em;
 color: #0DFFBC;
+margin-left: 2em;
 }
 
 #contenido3 .item .conferencia {
@@ -383,7 +384,30 @@ body .contenido2 .item {
 	border-radius: 120px;
 	margin-right: 0.5em;
 }
-.contenido2 .item #expositor1 figcaption,.contenido2 .item #expositor2 figcaption,.contenido2 .item #expositor3 figcaption,.contenido2 .item #expositor4 figcaption,.contenido2 .item #expositor5 figcaption,.contenido2 .item #expositor6 figcaption, .contenido2 .item #expositor7 figcaption,.contenido2 .item #expositor8 figcaption{
+
+.contenido2 .item #expositor9 img{
+	width: 120px;
+	height: 120px;
+	margin: 0;
+	margin-top: 2px;
+	padding: 15px;
+	margin-right: 1em;
+	border-radius: 120px;
+	margin-right: 0.5em;
+}
+
+.contenido2 .item #expositor10 img{
+	width: 120px;
+	height: 120px;
+	margin: 0;
+	margin-top: 2px;
+	padding: 15px;
+	margin-right: 1em;
+	border-radius: 120px;
+	margin-right: 0.5em;
+}
+
+.contenido2 .item #expositor1 figcaption,.contenido2 .item #expositor2 figcaption,.contenido2 .item #expositor3 figcaption,.contenido2 .item #expositor4 figcaption,.contenido2 .item #expositor5 figcaption,.contenido2 .item #expositor6 figcaption, .contenido2 .item #expositor7 figcaption,.contenido2 .item #expositor8 figcaption,.contenido2 .item #expositor9 figcaption,.contenido2 .item #expositor10 figcaption{
 	color: #D3E9FF;
 	font-size: 14px;
 	margin-right: 10px;
@@ -391,7 +415,7 @@ body .contenido2 .item {
 }
 
 
-.contenido2 .item #expositor1,.contenido2 .item #expositor2,.contenido2 .item #expositor3,.contenido2 .item #expositor4,.contenido2 .item #expositor5 ,.contenido2 .item #expositor6,.contenido2 .item #expositor7,.contenido2 .item #expositor8{
+.contenido2 .item #expositor1,.contenido2 .item #expositor2,.contenido2 .item #expositor3,.contenido2 .item #expositor4,.contenido2 .item #expositor5 ,.contenido2 .item #expositor6,.contenido2 .item #expositor7,.contenido2 .item #expositor8,.contenido2 .item #expositor9,.contenido2 .item #expositor10{
 	display: inline-block;
 	vertical-align: top;
 }
