@@ -62,10 +62,16 @@
           <br>
         </p>
          <span class="registrate">Comunidades Reunidas</span>
-        
-        <div id="boton_registro">
-     <a href="https://docs.google.com/forms/d/1fPbWeAnP61hUqmnaQukXkiTn2imy7AixfcPXKJsrITA/viewform" target="_blank"  class="boton">Registrate</a>
+        <div id="boton_registro" class="my_modal_open" >
+     <a class="boton"href="#">Registrate</a>
      </div>  
+
+  <div id="my_modal">
+  <embed style="width:600px;height:500px;" id="forma" src="https://docs.google.com/forms/d/1fPbWeAnP61hUqmnaQukXkiTn2imy7AixfcPXKJsrITA/viewform">
+  <button class="my_modal_close">X</button>
+  </div>
+
+
         <figure id="gbglogo">
          <a target="_blank" href="https://www.google.com/landing/gbg/"><img src="images/gbglogo.png"></a>
         <figcaption>Google Business Groups</figcaption>
@@ -107,7 +113,7 @@
         <img src="images/expositor3.jpg">
          <figcaption class="nombreexpo">Julio Soto</figcaption>
          <figcaption class="skilssexpo">Google Mexico<br>
-        Experto en Google Plus, Social Media<br>
+        Experto en Google Plus,Social Media<br>
         y Marketing Digital<br>
         </figcaption>
           </figure>
@@ -123,7 +129,7 @@
          <figcaption class="nombreexpo">Mauricio Angulo</figcaption>
          <figcaption class="skilssexpo">Director de Tecnología de Tesseract Space<br>
           Ingeniero de software<br>
-          y Asesor en Experiencia de Usuario<br>
+          Asesor en UX<br>
         </figcaption>
           </figure>
           <figure id="expositor6">
@@ -131,7 +137,7 @@
          <figcaption class="nombreexpo">Leonel Mendez</figcaption>
          <figcaption class="skilssexpo">Google Student Ambassador UNAM<br>
           Android & Angular JS Expert<br>
-          GDG UNAM<br>
+          GDG UNAM Organizer<br>
         </figcaption>
           </figure>
           <figure id="expositor7">
@@ -146,8 +152,8 @@
         <img src="images/expositor8.jpg">
          <figcaption class="nombreexpo">Uriel Ramirez</figcaption>
          <figcaption class="skilssexpo">GDG IPN Organizer<br>
-          Android Arduino & Web Developer<br>
-          Participante de Developer Bus Mexico 2013<br>
+          Android, Arduino & Web Developer<br>
+          Participante Developer Bus 2013<br>
         </figcaption>
           </figure>
         </p>
@@ -167,9 +173,7 @@
         <br>
         Dakota 95 Nápoles, Benito Juárez 03810 Ciudad de México, Distrito Federal‎
         </p>
-        <div id="mapa">
-        <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com.mx/maps?t=m&amp;cid=0x62791b31b80a1cb0&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=19.39681,-99.174078&amp;spn=0.004858,0.006866&amp;z=17&amp;iwloc=A&amp;output=embed"></iframe><br /><small></small>
-        </div>
+         <div id="map-canvas"/>
       </article>
       </Section>
 
@@ -261,18 +265,17 @@
         </p>
       </article>
        </section>
-
-
-
-
     <footer>
       <p>Pagina Web by GDG IPN<br>
       Uriel Ramirez: @thespianartist & Angel Baez: @baezjs
       </p>
     </footer>
-
+   
      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <script src="js/modal.js"></script>
       <script>window.jQuery || document.write('<script src="js/write/jquery-1.9.1.min.js"><\/script>')</script>
+      <script src="http://maps.googleapis.com/maps/api/js?&sensor=true">
+      </script>
       <script src="js/plugins.js"></script>
       <script src="js/main.js"></script>
       <script src="js/scrollto.min.js"></script>
