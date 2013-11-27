@@ -108,6 +108,13 @@ margin-bottom: 1em;
 	border-radius:25px;
 }
 
+#contenido .item #aviso{
+	
+	color:  #0DFFBC;
+	font-size: 1.2em;
+
+}
+
  #map-canvas { 
  	text-align: center;
   width: 90%;
