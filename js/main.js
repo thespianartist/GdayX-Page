@@ -14,7 +14,7 @@ function init(){
 
 function initialize() {
         var mapOptions = {
-          center: new google.maps.LatLng(19.39508, -99.17530),
+          center: new google.maps.LatLng(19.4473679, -99.1353355),
           zoom: 17,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
@@ -25,7 +25,7 @@ function initialize() {
         var marcador = new google.maps.Marker({
 		map: map,
 		draggable: true,
-		position:new google.maps.LatLng(19.39508, -99.17530),
+		position:new google.maps.LatLng(19.4473679, -99.1353355),
 		visible: true
 		});
 	
